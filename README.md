@@ -2,7 +2,7 @@
 SVG wind barbs for speeds from 0 to 190 knots. The SVG files uses the PATH element and is suitable for adding to Google Maps or OpenLayers.
 
 ## Demo sprite
-![Demo sprite](demo-sprite.svg?raw=true "Demo sprite")
+![Demo sprite](demo-sprite-210815.svg?raw=true "Demo sprite")
 
 ## Knots to m/s ranges
 | Knots | m/s (low) | m/s (high) | Knots | m/s (low) | m/s (high) |
@@ -37,7 +37,7 @@ import {getWindBarb} from 'windbarbs.js'
 ```
 
 ## SCSS/CSS
-All the SVG files has a `style` tag embeded for portability. If you want to have a centrailsed styling you can remove the `style` tag and add a class to the `SVG` tag. Consider using a `BEM` naming convention and give each individual SVG file its own modifier.
+All the SVG files has a `style` tag embeded for portability. If you want to have a centrailsed styling you can remove the `style` tag and add a class to the `SVG` tag. Consider using a `BEM` (ish) naming convention and give each individual SVG file its own modifier if you want to give any specific styling.
 
 ```scss
 .svg-wb {
