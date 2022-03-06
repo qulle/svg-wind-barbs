@@ -33,7 +33,7 @@ The table lists ranges for at what speeds in m/s to map to the correct SVG image
 ## JavaScript
 There is a JavaScript file containing all SVG paths and has a function for putting together the correct SVG path from a given wind speed in m/s.
 ```javascript
-import {getWindBarb} from 'windbarbs.js'
+import { getWindBarb } from 'windbarbs.js'
 ```
 
 ## SCSS/CSS

@@ -94,4 +94,4 @@ const getWindBarb = function(windSpeed) {
     `;
 }
 
-export {getWindBarb};
+export { getWindBarb };
