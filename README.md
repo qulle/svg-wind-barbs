@@ -1,5 +1,5 @@
 # SVG Wind Barbs
-SVG wind barbs for speeds from 0 to 190 knots. The SVG files uses the PATH element and is suitable for adding to Google Maps or OpenLayers.
+SVG wind barbs for speeds from 0 to 190 knots. The SVG files uses the PATH element and is suitable for adding to Google Maps, OpenLayers or LeafLet etc.
 
 ## Demo sprite
 ![Demo sprite](demo-sprite-210815.svg?raw=true "Demo sprite")
@@ -34,10 +34,14 @@ The table lists ranges for at what speeds in m/s to map to the correct SVG image
 There is a JavaScript file containing all SVG paths and has a function for putting together the correct SVG path from a given wind speed in m/s.
 ```javascript
 import { getWindBarb } from 'windbarbs.js'
+
+// Wind speed is given in m/s
+const windSpeed = 5.7;
+const windBarbIcon = getWindBarb(windSpeed);
 ```
 
 ## SCSS/CSS
-All the SVG files has a `style` tag embeded for portability. If you want to have a centrailsed styling you can remove the `style` tag and add a class to the `SVG` tag. Consider using a `BEM` (ish) naming convention and give each individual SVG file its own modifier if you want to give any specific styling.
+All the SVG files has a `style` tag embeded for portability. The style can also be applied as individual attributes on the svg element. If you want to have a centrailsed styling you can remove the `style` tag and add a class to the `SVG` tag. Consider using a `BEM` (ish) naming convention and give each individual SVG file its own modifier if you want to give any specific styling.
 
 ```scss
 .svg-wb {
