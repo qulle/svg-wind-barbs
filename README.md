@@ -1,5 +1,5 @@
 # SVG Wind Barbs
-SVG wind barbs for speeds from 0 to 190 knots. The SVG files uses the PATH element and is suitable for adding to Google Maps, OpenLayers or LeafLet etc.
+SVG wind barbs for speeds from 0 to 190 knots. The SVG files uses the PATH element and is suitable for adding to Google Maps, OpenLayers or LeafLet etc. To see the wind barbs in use, visit my [OpenLayers Toolbar Project](https://github.com/qulle/oltb).
 
 ## Demo sprite
 ![Demo sprite](demo-sprite-210815.svg?raw=true "Demo sprite")
